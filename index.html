@@ -3,30 +3,34 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-<html lang="zh">
+<html lang="zh" style="font-size: 16px">
 <head>
     <meta charset="UTF-8">
 </head>
     <body>
-        <div class="card-panel">
-            <span class="blue-text text-darken-2">
-                <div class="main">对不起，我反思。已经有<div class="jumbo" id="target">0</div>个中国人反思了</div>
-            </span>
-        </div>
+        <div class="test">
+        <div class="container">
+                <span class="blue-text text-darken-2 z-depth-5">
+                    <div class="main">
+                    对不起，我反思。已经有<div class="jumbo" id="target">0</div>个中国人反思了</div>
+                </span>
+        </div></div>
         <style>
             .busuanzi_value_site_pv {
                 width: 0px;
                 height: 0px;
-                background-color: brown;
+                /* background-color: brown; */
+                 background-color:transparent;
                 display: none;
                 overflow: hidden;
             }
-            .main{
+            .main {
                 text-align: center; /*让div内部文字居中*/
-                background-color: #fff;
+                background-color:rgba(255,255,255,0);
+
                 border-radius: 20px;
-                width: 300px;
-                height: 350px;
+                width: 600px;
+                height: 200px;
                 margin: auto;
                 position: absolute;
                 top: 0;
@@ -34,8 +38,23 @@
                 right: 0;
                 bottom: 0;
             }
-            .body {
-                background-image: url("fansi.jpg");
+            .test {
+                text-align: center; /*让div内部文字居中*/
+                background-color:rgba(255,255,255,0.5);
+
+                border-radius: 20px;
+                width: 100%;
+                height: 100%;
+                margin: auto;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+            }
+            body {
+                background-image: url(fansi.jpg);
+                Font-size:300%;
             } 
         </style>
         <span id="busuanzi_container_site_pv"><span id="busuanzi_value_site_pv" name="busuanzi_value_site_pv" class="busuanzi_value_site_pv"></span></span>
